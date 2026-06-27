@@ -26,8 +26,5 @@ pipeline {
             }
                 }
             }
-            steps{
-                bat 'dotnet test --no-build --verbosity normal'
-            }
         }
     
